@@ -1,0 +1,88 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Gregory Cadar
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 13px;
+	font-family: Cambria, serif;
+	background: #fff;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a img { border: none; }
+
+#menu {
+    width: 180px;
+    overflow: auto;
+	padding-left: 40px;
+    position: fixed;
+    height: 100%;
+	background-color: #fff;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 12px 0 0 0;
+}
+
+#menu ul li.section-title { }
+#menu ul a { margin-left:20px; }
+
+a:link { text-decoration: none; color: #000; }
+a:active {text-decoration: none; color: #000; }
+a:visited { text-decoration: none; color: #000; }
+a:hover { text-decoration: none; font-style: italic; color: #666; }
+
+#menu li a:link { text-decoration: none; color: #000; }
+#menu li a:active {text-decoration: none; color: #000; }
+#menu li a:visited { text-decoration: none; border-bottom: dotted 1px #000; font-style: italic; color: #000; }
+#menu li a:hover { text-decoration: none; border-bottom: dotted 1px #666; font-style: italic; color: #666; }
+
+#content {
+    height: 100%;
+    margin: 0 0 0 215px;
+    padding-left: 15px;
+
+}
+
+.container {
+    padding-top: 40px;
+}
+
+#content p { width: 400px; margin-bottom: 9px; }
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container	{ width: 450px; margin: 0; padding: 0; }
+#img-container p	{ width: 450px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }
+
+#links a:link { text-decoration: none; border-bottom: dotted 1px #000; color: #000; }
+#links a:active {text-decoration: none; border-bottom: dotted 1px #000; color: #000; }
+#links a:visited { text-decoration: none; border-bottom: dotted 1px #000; color: #000; }
+#links a:hover { text-decoration: none; border-bottom: dotted 1px #666; font-style: italic; color: #666; }
+
+
+#content ul {float: left; display: block; width: 150px;}
+
+.left {text-align: left; display: block; width: 30px; float: left;}
+.center {text-align:left; padding-left: 60px; display: block; width: 400px; float: left;}

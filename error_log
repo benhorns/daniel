@@ -1,0 +1,6 @@
+[06-Jan-2011 14:26:29] PHP Parse error:  syntax error, unexpected $end in /home1/dsheapho/public_html/ndxz-studio/site/plugin/exhibit.horizontal.php on line 51
+[09-Jan-2011 19:19:50] PHP Parse error:  syntax error, unexpected ':' in /home1/dsheapho/public_html/ndxz-studio/site/plugin/exhibit.thickbox.php on line 73
+[10-Jan-2011 15:06:43] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home1/dsheapho/public_html/ndxz-studio/lib/media.php on line 214
+[10-Jan-2011 15:06:43] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home1/dsheapho/public_html/files/gimgs//18_neweditorial07.jpg' is not a valid JPEG file in /home1/dsheapho/public_html/ndxz-studio/lib/media.php on line 214
+[10-Jan-2011 15:06:43] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home1/dsheapho/public_html/ndxz-studio/lib/media.php on line 118
+[10-Jan-2011 15:06:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/dsheapho/public_html/ndxz-studio/lib/media.php:214) in /home1/dsheapho/public_html/ndxz-studio/lib/template.php on line 65
