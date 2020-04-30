@@ -1,5 +1,3 @@
-YO WUT UP PHR34KZ
-
 About
 =====
 
